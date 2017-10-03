@@ -1,4 +1,4 @@
-# V1
+# Raphael Hippe - personal website
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
 
