@@ -1,0 +1,58 @@
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        <div class="spacer"></div>
+    </div>
+    <div class="col-md-1"></div>
+</div>
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        <div class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="../../../../assets/images/raphael_hippe.JPG" alt="Raphael Hippe">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-8">
+                        <h1>Raphael Hippe <small>B.Sc.</small></h1>
+                        <p>My name is Raphael Hippe, I am {{calcAge()}} years old and currently studying in Karlsruhe, Germany.</p>
+                        <p>student - computer science - interactive systems (master)</p>
+                        <p>student - media communication and computer science (bachelor)</p>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">Skills</div>
+                            <div class="panel-body">
+                                <span *ngFor="let skill of skills" class="pull-left label" [ngClass]="skill.cssClass">{{skill.skill}}</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary btn-md" [routerLink]="['/reference']" role="button">Learn more my work</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-1"></div>
+</div>
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        <div class="spacer"></div>
+    </div>
+    <div class="col-md-1"></div>
+</div>
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        <div class="spacer"></div>
+    </div>
+    <div class="col-md-1"></div>
+</div>
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        <div class="spacer"></div>
+    </div>
+    <div class="col-md-1"></div>
+</div>
